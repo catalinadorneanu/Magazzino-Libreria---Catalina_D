@@ -1,46 +1,39 @@
 ﻿<!DOCTYPE html>
+
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Aggiungi Libro</title>
+    <title>Cancella</title>
 </head>
 <body style="background-color: #03254c">
     <header style="background-color: #3360FF; border: 3px solid black;text-align: center">
-        <h1>Aggiungi un nuovo libro</h1>
+        <h1>Cancella un libro dalla libreria</h1>
         <nav>
             <a href="/Libreria.html" target="_blank">Home | </a>
-            <a href="/AggiungiLibro.html">Aggiungi un nuovo libro | </a>
+            <a href="/AggiungiLibro.html" target="_blank">Aggiungi un nuovo libro | </a>
             <a href="/Modifica.html" target="_blank">Modifica un libro | </a>
-            <a href="/Cancella.html" target="_blank">Cancella un libro </a>
+            <a href="/Cancella.html">Cancella un libro</a>
         </nav>
         <br />
     </header>
     <br /><br />
-    <div style="        border: 2px dotted black;
+    <div style="border: 2px dotted black;
         width: 100%;
         text-align: center;
         background-color: #d0efff">
         <form>
             <br /><br />
-            Titolo:
-            <input type="text" required placeholder="Inserisci il titolo del libro" />
-            <br /><br />
-
-            Autore:
-            <input type="text" required placeholder="Inserisci l'autore" />
-            <br /><br />
-
-            Codice ISBN:
+            Inserisci il codice ISBN del libro che vuoi cancellare:
             <input type="text" required placeholder="Inserisci il codice di 13 cifre" pattern="[0-9]{13}" title="Inserisci il codice di 13 cifre" />
             <br /><br />
 
-            Disponibilità:
+            Sicuro di voler cancellare?
             <label><input type="radio" value="1" name="disp" />Sì</label>
             <label><input type="radio" value="2" name="disp" />No</label>
             <br /><br />
 
 
-            <input type="submit" value="Aggiungi libro" />
+            <input type="submit" value="Cancella libro" />
             <br /><br />
         </form>
     </div>
