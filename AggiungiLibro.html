@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Aggiungi Libro</title>
+</head>
+<body>
+    <header style="border: 3px solid blue">
+        <h1 style="text-align:center">Aggiungi un nuovo libro</h1>
+        <nav style="text-align:center">
+            <a href="/Libreria.html" target="_blank">Home</a>
+            <a href="/AggiungiLibro.html">Aggiungi un nuovo libro</a>
+        </nav>
+        <br />
+    </header>
+    <br /><br />
+          <form>
+              Titolo:
+              <input type="text" required placeholder="Inserisci il titolo del libro" />
+              <br /><br />
+
+              Autore:
+              <input type="text" required placeholder="Inserisci l'autore" />
+              <br /><br />
+
+              Disponibilità:
+              <label><input type="radio" value="1" name="disp" />Sì</label>
+              <label><input type="radio" value="2" name="disp" />No</label>
+              <br /><br />
+              <input type="submit" value="Aggiungi il libro" />
+          </form>
+</body>
+</html>
